@@ -9,7 +9,7 @@ WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, LAYING, SITTING, STANDING
 
 ### Measurements
 The format is [MeasurementType]-[mean or std]()-[X Y or Z]
-Most measurement types have a mean and standard deviation for the X, Y, and Z components, but there are some exceptions, such as fBodyAccMag which only has one component (no X, Y, Z specification)
+Most measurement types have a mean and standard deviation for the X, Y, and Z components, but there are some exceptions, such as fBodyAccMag which only has one component (no X, Y, Z specification). The values given are the AVERAGES of the measurement for a given subject and activity.
 
 ####Measurement Types
 * tBodyAcc-XYZ
